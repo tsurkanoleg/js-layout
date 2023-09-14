@@ -89,3 +89,41 @@
 		background-color: #f6e8ef;
 	}
 }
+
+.container {
+	font-size: 16px;
+	display: flex;
+
+}
+
+
+.button {
+	display: grid;
+	gap: 12px;
+	color: #888;
+	justify-items: center;
+
+}
+
+.active-button {
+	color: #121212;
+}
+
+.grid {
+	width: 50%;
+	display: grid;
+}
+
+.hr {
+	width: 99%;
+	height: 3px;
+
+	background-color: #E6E6E6;
+
+}
+
+.hr-active {
+	width: 99%;
+	height: 3px;
+	background-color: #121212;
+}
