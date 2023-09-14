@@ -44,38 +44,3 @@ export const createHeader = () => {
 
 	return header
 }
-
-// const info = [
-// 	{
-// 		width: "45%",
-// 		height: 35,
-// 		text: 'База знань'
-// 	},
-
-// 	{
-// 		width: "45%",
-// 		height: 35,
-// 		src:'Інформація'
-// 	}
-// ]
-
-// export const COMM_LIST = () => {
-// 	const comm = createElement('div', 'comm--list')
-
-// 	info.forEach((params) => {
-// 		const button = createElement('button', 'button')
-// 		const text = createElement('text')
-
-// 		Object.entries(params).forEach(([key, value]) => {
-// 			text[key] = value
-// 		})
-
-// 		button.insertAdjacentElement('beforeend',img)
-
-// 		comm.insertAdjacentElement('beforeend',button)
-
-// 	})
-
-// 		return comm
-
-// }
